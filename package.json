@@ -1,7 +1,7 @@
 {
   "name": "string-type",
   "description": "the string type object.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "homepage": "https://github.com/snowyu/string-type.js",
   "repository": {
     "type": "git",
