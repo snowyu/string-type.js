@@ -29,8 +29,6 @@ module.exports = class StringType
         value = dest.validateMax(value) if dest instanceof StringType
         value
 
-  #@stringToValue:-> #must be overrided this method!
-
   validateMin: (value)->
     throw new TypeError 'the min should be less than max:' + value if value > @_max
     try value = parseInt(value) if isString value
