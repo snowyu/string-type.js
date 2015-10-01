@@ -27,7 +27,7 @@
   "dependencies": {
     "abstract-type": "^0.2.4",
     "inherits-ex": "^1.1.4",
-    "util-ex": "^0.3.14"
+    "util-ex": "^0.3.15"
   },
   "devDependencies": {
     "chai": "~3.2.0",

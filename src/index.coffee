@@ -2,9 +2,9 @@ isInt           = require 'util-ex/lib/is/string/int'
 isFloat         = require 'util-ex/lib/is/string/float'
 isNumber        = require 'util-ex/lib/is/type/number'
 isString        = require 'util-ex/lib/is/type/string'
+isInteger       = require 'util-ex/lib/is/type/integer'
 Attributes      = require 'abstract-type/lib/attributes'
 Type            = require 'abstract-type'
-isInteger       = Number.isInteger
 register        = Type.register
 aliases         = Type.aliases
 
