@@ -21,12 +21,27 @@ The string type info object.
 
 ## Usage
 
-```coffee
-Type  = require 'string-type'
+```js
+var StringType  = require('string-type')
+var Str = StringType(min:1, max:6)
+var s = Str.create('a str')
+console.log(s+ '!')
+//='a str!'
+console.log(s.isValid())
+//=true
+console.log(s.toJson()))
+//='"a str"'
+console.log(s.toJson({withType:true})))
+//='{"value":'a str',"name":"String","min":1,"max":6}'
+n.assign('1234567')
+//=TypeError: "1234567" is an invalid String
+n.assign('123456')
+//="123456"
 ```
 
 ## API
 
+See [abstract-type](https://github.com/snowyu/abstract-type.js)
 
 ## TODO
 
